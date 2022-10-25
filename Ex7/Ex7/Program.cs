@@ -10,13 +10,16 @@ namespace Ex7
     {
         public static void Main(string[] args)
         {
-            int a, b;
+            int a, b, aux;
             Console.Write("a = ");
             a = int.Parse(Console.ReadLine());
             Console.Write("b = ");
             b = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("a = {0} \\ b = {1}", b, a);
+            aux = a;
+            a = b;
+            b = aux;
+            Console.WriteLine("a = {0} \\ b = {1}", a, b);
         }
     }
 
