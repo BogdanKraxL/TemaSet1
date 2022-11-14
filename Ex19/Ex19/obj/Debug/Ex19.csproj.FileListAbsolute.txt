@@ -1,0 +1,8 @@
+C:\Users\bogda\source\Tema Set1\Ex19\Ex19\bin\Debug\Ex19.exe.config
+C:\Users\bogda\source\Tema Set1\Ex19\Ex19\bin\Debug\Ex19.exe
+C:\Users\bogda\source\Tema Set1\Ex19\Ex19\bin\Debug\Ex19.pdb
+C:\Users\bogda\source\Tema Set1\Ex19\Ex19\obj\Debug\Ex19.csproj.AssemblyReference.cache
+C:\Users\bogda\source\Tema Set1\Ex19\Ex19\obj\Debug\Ex19.csproj.SuggestedBindingRedirects.cache
+C:\Users\bogda\source\Tema Set1\Ex19\Ex19\obj\Debug\Ex19.csproj.CoreCompileInputs.cache
+C:\Users\bogda\source\Tema Set1\Ex19\Ex19\obj\Debug\Ex19.exe
+C:\Users\bogda\source\Tema Set1\Ex19\Ex19\obj\Debug\Ex19.pdb
