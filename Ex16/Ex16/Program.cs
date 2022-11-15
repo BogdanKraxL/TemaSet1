@@ -11,98 +11,76 @@ namespace Ex16
     {
         static void Main(string[] args)
         {
-            int a, b, c, d, e;
-            int num1 = 0, num2 = 0, num3 = 0, num4 = 0, num5 = 0;
+            int a, b, c, d, e, aux;
+            aux = 0;
 
-            Console.Write("Primul numar: ");
+            Console.Write("a = ");
             a = int.Parse(Console.ReadLine());
-            Console.Write("Al doilea numar: ");
+            Console.Write("b = ");
             b = int.Parse(Console.ReadLine());
-            Console.Write("Al treilea numar: ");
+            Console.Write("c = ");
             c = int.Parse(Console.ReadLine());
-            Console.Write("Al patrulea numar: ");
+            Console.Write("d = ");
             d = int.Parse(Console.ReadLine());
-            Console.Write("Al cincilea numar: ");
+            Console.Write("e = ");
             e = int.Parse(Console.ReadLine());
+            
 
-            if (a < b && a < c && a < d && a < e)
-                num1 = a;
-
-            if (a > b && a < c && a < d && a < e)
-                num1 = b;
-
-            if (a > b && a > c && a < d && a < e)
-                num1 = c;
-
-            if (a > b && a > c && a > d && a < e)
-                num1 = d;
-
-            if (a > b && a > c && a > d && a > e)
-                num1 = e;
-
-            if (b < a && b < c && b < d && b < e)
-                num2 = a;
-
-            if (b > a && b < c && b < d && b < e)
-                num2 = b;
-
-            if (b > a && b > c && b < d && b < e)
-                num2 = c;
-
-            if (b > a && b > c && b > d && b < e)
-                num2 = d;
-
-            if (b > a && b > c && b > d && b > e)
-                num2 = e;
-
-            if (c < a && c < b && c < d && c < e)
-                num3 = a;
-
-            if (c > a && c < b && c < d && c < e)
-                num3 = b;
-
-            if (c > a && c > b && c < d && c < e)
-                num3 = c;
-
-            if (c > a && c > b && c > d && c < e)
-                num3 = d;
-
-            if (c > a && c > b && c > d && c > e)
-                num3 = e;
-
-            if (d < a && d < b && d < c && d < e)
-                num4 = a;
-
-            if (d > a && d < b && d < c && d < e)
-                num4 = b;
-
-            if (d > a && d > b && d < c && d < e)
-                num4 = c;
-
-            if (d > a && d > b && d > c && d < e)
-                num4 = d;
-
-            if (d > a && d > b && d > c && d > e)
-                num4 = e;
-
-            if (e < a && e < b && e < c && e < d)
-                num5 = a;
-
-            if (e > a && e < b && e < c && e < d)
-                num5 = b;
-
-            if (e > a && e > b && e < c && e < d)
-                num5 = c;
-
-            if (e > a && e > b && e > c && e < d)
-                num5 = d;
-
-            if (e > a && e > b && e > c && e > d)
-                num5 = e;
-
-            Console.WriteLine("De la cel mai mic la cel mai mare " + num1 + " " + num2 + " " + num3 + " " + num4 + " " + num5);
-
-            Console.ReadKey();
+            if (a > b)
+            {
+                aux = a;
+                a = b;
+                b = aux;
+            }
+            if (c > d)
+            {
+                aux = c;
+                c = d;
+                d = aux;
+            }
+            if (b > d)
+            {
+                aux = b;
+                b = d;
+                d = aux;
+            }
+            if (c > e)
+            {
+                aux = c;
+                c = e;
+                e = aux;
+            }
+            if (b > e)
+            {
+                aux = b;
+                b = e;
+                e = aux;
+            }
+            if (a > c)
+            {
+                aux = a;
+                a = c;
+                c = aux;
+            }
+            if (b > c)
+            {
+                aux = b;
+                b = c;
+                c = aux;
+            }
+            if (d > e)
+            {
+                aux = d;
+                d = e;
+                e = aux;
+            }
+            if (c > d)
+            {
+                aux = c;
+                c = d;
+                d = aux;
+            }
+            Console.WriteLine($"{a} {b} {c} {d} {e}");
         }
     }
 }
