@@ -1,0 +1,8 @@
+C:\Users\bogda\source\Tema Set1\Ex21(Real)\Ex21(Real)\bin\Debug\Ex21(Real).exe.config
+C:\Users\bogda\source\Tema Set1\Ex21(Real)\Ex21(Real)\bin\Debug\Ex21(Real).exe
+C:\Users\bogda\source\Tema Set1\Ex21(Real)\Ex21(Real)\bin\Debug\Ex21(Real).pdb
+C:\Users\bogda\source\Tema Set1\Ex21(Real)\Ex21(Real)\obj\Debug\Ex21(Real).csproj.AssemblyReference.cache
+C:\Users\bogda\source\Tema Set1\Ex21(Real)\Ex21(Real)\obj\Debug\Ex21(Real).csproj.SuggestedBindingRedirects.cache
+C:\Users\bogda\source\Tema Set1\Ex21(Real)\Ex21(Real)\obj\Debug\Ex21(Real).csproj.CoreCompileInputs.cache
+C:\Users\bogda\source\Tema Set1\Ex21(Real)\Ex21(Real)\obj\Debug\Ex21(Real).exe
+C:\Users\bogda\source\Tema Set1\Ex21(Real)\Ex21(Real)\obj\Debug\Ex21(Real).pdb
